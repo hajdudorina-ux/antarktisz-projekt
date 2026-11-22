@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Verseny a világ végén – Amundsen és Scott</title>
+<style>
+:root{--navy:#10263d;--ice:#eaf5f8;--blue:#8ec8d8;--red:#c65c4b;--gold:#e9bd67;--ink:#172b3a}
+*{box-sizing:border-box} body{margin:0;background:#eaf2f4;color:var(--ink);font-family:Arial,Helvetica,sans-serif;line-height:1.55}
+header{background:linear-gradient(135deg,#10263d,#24506a);color:white;padding:52px 7vw 44px;position:relative;overflow:hidden}
+header:after{content:"❄";position:absolute;right:7%;top:-35px;font-size:240px;opacity:.08}
+.kicker{text-transform:uppercase;letter-spacing:3px;font-size:.78rem;color:#b9e3ed;font-weight:bold}
+h1{font-size:clamp(2.2rem,6vw,4.6rem);line-height:1.02;margin:12px 0;max-width:850px}
+header p{font-size:1.15rem;max-width:720px;color:#e0f0f4}
+.wrap{max-width:1050px;margin:auto;padding:28px 22px 60px}
+.intro{display:grid;grid-template-columns:1.2fr .8fr;gap:22px;align-items:stretch;margin-top:-5px}
+.panel{background:white;border-radius:20px;padding:24px;box-shadow:0 10px 28px #17364b12}
+.bigfact{background:#d9eef3;border-left:6px solid #3c8da3}
+.bigfact strong{font-size:2rem;color:#164b60;display:block}
+h2{font-size:1.7rem;color:var(--navy);margin:8px 0 15px}
+h3{margin:5px 0 8px;color:var(--navy)}
+.tag{display:inline-block;background:#e8f4f6;color:#285d6e;border-radius:30px;padding:5px 11px;font-size:.8rem;font-weight:bold}
+.photo{width:100%;height:265px;object-fit:cover;border-radius:15px;background:#d7e5e9}
+.caption{font-size:.78rem;color:#5a6c76;margin-top:7px}
+.timeline{position:relative;margin:25px 0;padding-left:28px}
+.timeline:before{content:"";position:absolute;left:8px;top:8px;bottom:8px;width:3px;background:#9fcbd5}
+.event{position:relative;margin:0 0 18px;background:white;border-radius:15px;padding:17px 20px;box-shadow:0 5px 18px #17364b0d}
+.event:before{content:"";position:absolute;left:-26px;top:22px;width:13px;height:13px;background:#347e92;border:3px solid #eaf2f4;border-radius:50%}
+.date{font-weight:bold;color:#28748a}
+.duel{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin:20px 0}
+.person{border-radius:18px;padding:22px;background:#fff}
+.person.am{border-top:7px solid #3d8da1}.person.sc{border-top:7px solid var(--red)}
+.person .emoji{font-size:2rem}
+.route{background:#10263d;color:white;border-radius:20px;padding:24px;margin:25px 0}
+.route h2{color:white}
+.routegrid{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.routebox{background:#ffffff14;border:1px solid #ffffff30;border-radius:13px;padding:15px}
+.quiz{background:#fff;border-radius:20px;padding:24px;margin-top:25px}
+.question{border-top:1px solid #e2eaed;padding:14px 0}
+button{border:0;background:#235e73;color:white;padding:10px 15px;border-radius:9px;font-weight:bold;cursor:pointer}
+.answer{display:none;margin-top:8px;color:#245f42;background:#e9f6ec;padding:9px 12px;border-radius:9px}
+.sources{font-size:.88rem;color:#536671;border-top:1px solid #d5e1e5;margin-top:30px;padding-top:18px}
+a{color:#17647d}
+footer{text-align:center;background:#dcebef;padding:20px;color:#526b77;font-size:.82rem}
+@media(max-width:700px){.intro,.duel,.routegrid{grid-template-columns:1fr}.photo{height:220px}header{padding-top:38px}}
+</style>
+</head>
+<body>
+<header>
+<div class="kicker">Történelem • Földrajz • 8. évfolyam</div>
+<h1>VERSENY A<br>VILÁG VÉGÉN</h1>
+<p>Két felfedező, egy cél, dermesztő hideg és egy olyan verseny, amelynek nem minden résztvevője tért haza.</p>
+</header>
+<main class="wrap">
+<section class="intro">
+ <div class="panel bigfact">
+  <span class="tag">A nagy kérdés</span>
+  <h2>Ki érte el elsőként a Déli-sarkot?</h2>
+  <strong>Roald Amundsen</strong>
+  A norvég felfedező és négy társa 1911. december 14-én jutott el a földrajzi Déli-sarkra. Scott csapata körülbelül egy hónappal később érkezett meg.
+ </div>
+ <div class="panel">
+  <h3>A Föld leghidegebb kontinense</h3>
+  <p>Az Antarktisz felfedezése hosszú folyamat volt. James Cook 1773-ban elsőként lépte át a déli sarkkört. A kontinens belsejének feltárása és a Déli-sark elérése csak jóval később vált lehetségessé.</p>
+  <span class="tag">1773 → 1911</span>
+ </div>
+</section>
+
+<section class="panel" style="margin-top:22px">
+ <h2>⏳ Hogyan jutottak el idáig?</h2>
+ <div class="timeline">
+  <div class="event"><div class="date">1773</div><b>James Cook átlépi a déli sarkkört.</b><br>Az európai felfedezők egyre közelebb jutnak a déli kontinenshez.</div>
+  <div class="event"><div class="date">1909</div><b>Ernest Shackleton közel kerül a Déli-sarkhoz.</b><br>Körülbelül 160 kilométerre közelíti meg, de a szélsőséges körülmények miatt vissza kell fordulnia.</div>
+  <div class="event"><div class="date">1910</div><b>Scott és Amundsen is útnak indul.</b><br>Scott expedíciója 1910. június 1-jén indul. Amundsen eredetileg az Északi-sarkra készült, de végül dél felé fordul.</div>
+  <div class="event"><div class="date">1911. december 14.</div><b>Amundsen elsőként eléri a Déli-sarkot.</b><br>Négy társával és kutyaszánokkal jut célba.</div>
+  <div class="event"><div class="date">1912. január</div><b>Scott csapata is megérkezik – de már későn.</b><br>A norvég zászló és Amundsen hátrahagyott üzenete fogadja őket.</div>
+  <div class="event"><div class="date">1912. március</div><b>Tragédiával végződik a visszaút.</b><br>Scott és társai a szélsőséges hideg, a kimerültség és a hóviharok miatt életüket vesztik.</div>
+ </div>
+</section>
+
+<h2 style="margin-top:30px">🥇 Két csapat – két különböző stratégia</h2>
+<div class="duel">
+ <article class="person am"><div class="emoji">🇳🇴 🐕</div><h3>Roald Amundsen</h3>
+ <ul><li>Norvég felfedező.</li><li>Kutyaszánokat használt.</li><li>52 kutyával indult a végső szakaszra.</li><li>Rövidebb, de nehezebb útvonalat választott.</li><li>Elsőként érte el a Déli-sarkot, és csapatával biztonságban visszatért a bázisra.</li></ul>
+ </article>
+ <article class="person sc"><div class="emoji">🇬🇧 🛷</div><h3>Robert Falcon Scott</h3>
+ <ul><li>Brit tengerésztiszt és sarkkutató.</li><li>Pónikat, kutyákat és motoros szánokat is vitt.</li><li>A pónik nem bírták a szélsőséges hideget.</li><li>A csapat végül maga húzta a nehéz szánokat.</li><li>Csak Amundsen után értek a Déli-sarkra; a visszaúton mindannyian odavesztek.</li></ul>
+ </article>
+</div>
+
+<section class="route">
+<h2>🧭 A verseny nemcsak gyorsaságon múlt</h2>
+<p>Az útvonal, a felszerelés, az időjárás és a felkészülés mind életbevágóan fontos volt. Amundsen csapata kutyaszánnal haladt, Scotték útját pedig a pónik és a motoros szánok kudarca is nehezítette.</p>
+<div class="routegrid">
+ <div class="routebox"><b>Amundsen</b><br>Axel Heiberg-gleccseren át vezető útvonal</div>
+ <div class="routebox"><b>Scott</b><br>Beardmore-gleccseren át vezető útvonal</div>
+</div>
+</section>
+
+<section class="panel">
+<h2>📷 Egy pillanat a Déli-sarkon</h2>
+<img class="photo" src="https://mult-kor.hu/im1K3/article/main/.cut-1000x600-webp/50046.webp?lavid=1528273578" alt="Scott és társai a Déli-sarknál">
+<div class="caption">Korabeli fénykép Scott expedíciójáról. Képforrás: Múlt-kor történelmi magazin.</div>
+</section>
+
+<section class="quiz">
+ <span class="tag">Ellenőrizd, mit jegyeztél meg!</span>
+ <h2>🧠 Sarkkutató-kvíz</h2>
+ <div class="question"><b>1. Ki érte el elsőként a földrajzi Déli-sarkot?</b><br><button onclick="show(1)">Mutasd a választ</button><div class="answer" id="a1">Roald Amundsen, 1911. december 14-én.</div></div>
+ <div class="question"><b>2. Milyen állatokat használt Amundsen csapata a szánok húzására?</b><br><button onclick="show(2)">Mutasd a választ</button><div class="answer" id="a2">Kutyákat.</div></div>
+ <div class="question"><b>3. Miért került Scott csapata nehéz helyzetbe?</b><br><button onclick="show(3)">Mutasd a választ</button><div class="answer" id="a3">A pónik nem bírták a szélsőséges hideget, a csapatnak pedig végül magának kellett húznia a szánokat. A visszaúton a hideg, a kimerültség és a hóviharok is végzetesnek bizonyultak.</div></div>
+ <div class="question"><b>4. Scotték hányadikaként értek a Déli-sarkra?</b><br><button onclick="show(4)">Mutasd a választ</button><div class="answer" id="a4">Másodikként, körülbelül egy hónappal Amundsen után.</div></div>
+ <div class="question"><b>5. Szerinted mi volt fontosabb a sikerhez: a gyorsaság vagy a felkészülés?</b><br><i>Gondold végig, és indokold meg a válaszodat!</i></div>
+</section>
+
+<div class="sources">
+<b>Források és további olvasnivaló:</b><br>
+<a href="https://hu.wikipedia.org/wiki/Az_Antarktisz_t%C3%B6rt%C3%A9nete" target="_blank" rel="noopener">Az Antarktisz története – Wikipédia</a><br>
+<a href="https://mult-kor.hu/igy-fulladt-tragediaba-scott-es-amundsen-antarktiszi-versenyfutasa-20180606" target="_blank" rel="noopener">Így fulladt tragédiába Scott és Amundsen antarktiszi versenyfutása – Múlt-kor</a>
+</div>
+</main>
+<footer>❄️ Készült a Déli-sark meghódításának történetéről ❄️</footer>
+<script>function show(n){const e=document.getElementById('a'+n);e.style.display=e.style.display==='block'?'none':'block'}</script>
+</body>
+</html>
